@@ -8,6 +8,8 @@ LuLu: a skin for PukiWiki
 
 [デモページ](http://fukuchiharuki.me/LuLu-a-skin-for-PukiWiki/ "LuLu：レスポンシブでシンプルなPukiWiki用スキン")
 
+![スクリーンショット](http://fukuchiharuki.me/LuLu-a-skin-for-PukiWiki/index.php?plugin=attach&refer=LuLu&openfile=screenshot-v1.0.png "スクリーンショット")
+
 特徴
 ----
 
