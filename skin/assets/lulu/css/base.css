@@ -1,0 +1,124 @@
+body { 
+	padding: 50px 0 0;
+}
+
+.bs-docs-section {
+	padding: 20px 0;
+}
+
+.page-header {
+	margin-top: 0;
+}
+
+#col-body h3 {
+	border-left: 4px solid #333333;
+	padding-left: 8px;
+}
+
+.word0, .word1, .word2, .word3, .word4, .word5, .word6, .word7, .word8, .word9 {
+	background-color: yellow;
+}
+
+#col-body .img_margin {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#col-body .img-responsive {
+	display: inline;
+}
+
+textarea[name=msg] ,
+#col-body pre {
+	font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
+	font-size: 14px;
+}
+
+table.table {
+	margin: 20px 0;
+	width: auto;
+}
+table.table > thead > tr > td {
+	font-weight: bold;
+}
+
+.edit_form > form > [name=msg] {
+	margin: 8px 0;
+}
+.edit_form {
+	margin-bottom: 8px;
+}
+.edit_form:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+footer {
+	color: gray;
+	text-align: center;
+}
+
+.anchor_super,
+.jumpmenu
+{
+	display: none;
+}
+
+@media (max-width: 767px) {
+	.navbar-header {
+		position: relative;
+	}
+	.navbar-header button {
+		position: absolute;
+		right: 0;
+	}
+
+	footer {
+		padding: 20px 0;
+	}
+}
+
+@media (min-width: 768px) {
+	#col-body h2 {
+		margin: 80px 0 20px;
+	}
+	#col-body .page-header + h2 {
+		margin-top: 0;
+	}	
+	#col-body h3 {
+		margin: 40px 0 20px;
+	}
+	#col-body h2 + h3 {
+		margin-top: 0;
+	}	
+	#col-body h4 {
+		margin: 40px 0 20px;
+		font-weight: bold;
+	}
+	#col-body h3 + h4 {
+		margin-top: 0;
+	}	
+
+	#banner {
+		min-height: 300px;
+		border-bottom: none;
+	}
+
+	.bs-docs-section {
+		padding: 40px 0;
+	}
+
+	table.table > * > tr > td {
+		padding: 8px 20px;
+	}
+
+	footer {
+		padding: 40px 0;
+	}
+}
+
+@media (min-width: 1200px) {
+	#col-menu hr:first-child {
+		display: none;
+	}
+}
