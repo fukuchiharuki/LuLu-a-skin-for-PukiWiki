@@ -294,7 +294,7 @@ function _toolbar($key, $x = 20, $y = 20){
 </div><!-- .container -->
 
 <footer>
-	Site admin: <a href="<?php echo $modifierlink ?>"><?php echo $modifier ?></a><p />
+	Site admin: <a href="<?php echo $modifierlink ?>"><?php echo $modifier ?></a><br>
 	<?php echo S_COPYRIGHT ?>.
 	Powered by PHP <?php echo PHP_VERSION ?>. HTML convert time: <?php echo $taketime ?> sec.
 </footer>

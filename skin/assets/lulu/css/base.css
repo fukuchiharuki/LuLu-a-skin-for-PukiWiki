@@ -27,8 +27,12 @@ body {
 	display: inline;
 }
 
+textarea[name=msg] {
+	width: 100%;
+}
 textarea[name=msg] ,
 #col-body pre {
+	margin: 11px 0;
 	font-family: Consolas, 'Courier New', Courier, Monaco, monospace;
 	font-size: 14px;
 }
@@ -73,14 +77,32 @@ footer {
 		right: 0;
 	}
 
+	.edit_form select[name=template_page] {
+		margin-bottom: 11px;
+		width: 100%;
+	}
+	.edit_form > form > div {
+		float: none !important;
+	}
+	.edit_form input[type=submit] {
+		margin: 2px 0;
+		height: 40px;
+		width: 100%;
+	}
+
 	footer {
 		padding: 20px 0;
 	}
 }
 
 @media (min-width: 768px) {
+	.page-header {
+		border: none;
+	}
 	#col-body h2 {
 		margin: 80px 0 20px;
+		border-bottom: 1px solid #eeeeee;
+		padding-bottom: 10px;
 	}
 	#col-body .page-header + h2 {
 		margin-top: 0;
