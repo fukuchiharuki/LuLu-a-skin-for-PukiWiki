@@ -6,9 +6,9 @@ LuLu: a skin for PukiWiki
 デモ
 ----
 
-[デモページ](http://fukuchiharuki.me/LuLu-a-skin-for-PukiWiki/ "LuLu：レスポンシブでシンプルなPukiWiki用スキン")
+[デモページ](http://fukuchiharuki.me/lulu/ "LuLu：レスポンシブでシンプルなPukiWiki用スキン")
 
-![スクリーンショット](http://fukuchiharuki.me/LuLu-a-skin-for-PukiWiki/index.php?plugin=attach&refer=LuLu&openfile=screenshot-v1.0.1.png "スクリーンショット")
+![スクリーンショット](http://fukuchiharuki.me/lulu/index.php?plugin=attach&refer=LuLu&openfile=screenshot-v1.0.1.png "スクリーンショット")
 
 特徴
 ----
