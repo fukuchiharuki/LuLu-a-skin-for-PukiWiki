@@ -26,6 +26,7 @@ LuLu: a skin for PukiWiki
 ```
 
 1. GitHubからスキンデータ一式をダウンロードする
+
         $ cd /path/to/PukiWiki/
         $ git clone git@github.com:fukuchiharuki/LuLu-a-skin-for-PukiWiki.git skin/lulu
 1. ファイル``/path/to/PukiWiki/default.ini.php``の17行目を変更する
