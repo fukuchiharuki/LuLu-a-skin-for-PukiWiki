@@ -1,7 +1,7 @@
 LuLu: a skin for PukiWiki
 ====
 
-レスポンシブでシンプルなPukiWiki用スキン。
+レスポンシブでシンプルな[PukiWiki](https://pukiwiki.osdn.jp/)用スキン。
 
 - [デモ](http://fukuchiharuki.me/lulu/)
 
