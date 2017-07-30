@@ -3,6 +3,8 @@ LuLu: a skin for PukiWiki
 
 レスポンシブでシンプルなPukiWiki用スキン。
 
+- [デモ](http://fukuchiharuki.me/lulu/)
+
 特徴
 ----
 
@@ -11,7 +13,9 @@ LuLu: a skin for PukiWiki
 * シンプル
   * MenuBarを右側に配置した2カラムレイアウト
 
-使い方
+v1では[Bootstrap](http://getbootstrap.com/)を利用していましたが、v2では[Milligram](http://milligram.io/)を利用するようにしました。また、CDNから外部のcssをリンクすることでスキンのインストールを容易にしました。
+
+インストール
 ----
 
 最終的に次のディレクトリ構造になります。
