@@ -59,6 +59,10 @@ header {
 	background-color: #333333;
 }
 
+#tool-bar {
+	margin-bottom: 40px;
+}
+
 main {
 	margin-top: 40px;
 }
