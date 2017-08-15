@@ -2,6 +2,7 @@
 
 @media screen and  (max-width: 639px) {
 	.row .column {
+		flex: 1 1 auto !important; /* hack */
 		max-width: 100% !important; /* hack */
 	}
 }
