@@ -1,9 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-@media screen and  (max-width: 639px) {
+@media screen and  (max-width: 639px) { /* hack */
+	.row {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0;
+		padding: 0;
+		width: 100%;
+	}
 	.row .column {
-		flex: 1 1 auto !important; /* hack */
-		max-width: 100% !important; /* hack */
+		flex: 1 1 auto !important;
+		max-width: 100% !important;
+		padding: 0;
 	}
 }
 
