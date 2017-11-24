@@ -1,19 +1,21 @@
 LuLu: a skin for PukiWiki
 ====
 
-レスポンシブでシンプルな[PukiWiki](https://pukiwiki.osdn.jp/)用スキン。
+シンプルでレスポンシブな[PukiWiki](https://pukiwiki.osdn.jp/)用スキン。
 
 - [デモ](http://fukuchiharuki.me/lulu/)
+
+「lulu」はハワイ語で「静かな」という意味だそうです。やかましくない、シンプルなスキンを目指しました。
 
 特徴
 ----
 
-* レスポンシブ
-  * [Milligram](http://milligram.io/)を利用する
 * シンプル
-  * MenuBarを右側に配置した2カラムレイアウト
+  * 1カラムレイアウト
+* レスポンシブ
+  * [Material Design Lite](https://getmdl.io/)を利用する
 
-v1では[Bootstrap](http://getbootstrap.com/)を利用していましたが、v2では[Milligram](http://milligram.io/)を利用するようにしました。また、CDNから外部のcssをリンクすることでスキンのインストールを容易にしました。
+v3で[Material Design Lite](https://getmdl.io/)を利用するようにしました。外部のリソースをCDNからリンクするのでスキンのインストールが容易です。
 
 インストール
 ----
@@ -26,13 +28,13 @@ v1では[Bootstrap](http://getbootstrap.com/)を利用していましたが、v2
 └── skin/
     └── lulu/
         ├── lulu.main.css
-        └── lulu.skin.php
+        └── assets/
 ```
 
 1. GitHubからスキンデータ一式をダウンロードする
 
         $ cd /path/to/PukiWiki/
-        $ git clone git@github.com:fukuchiharuki/LuLu-a-skin-for-PukiWiki.git skin/lulu
+        $ git clone https://github.com/fukuchiharuki/LuLu-a-skin-for-PukiWiki.git skin/lulu
 1. ファイル``/path/to/PukiWiki/default.ini.php``の17行目を変更する
 
         define(’SKIN_FILE’, DATA_HOME . SKINK_DIR . ‘pukiwiki.skin.php’);

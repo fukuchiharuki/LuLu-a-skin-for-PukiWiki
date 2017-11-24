@@ -1,0 +1,242 @@
+@charset "utf-8";
+
+/* utility */
+.hide {
+	display: none;
+}
+
+/* highlight.js */
+.nohighlight {
+	padding: 0.5em;
+	background-color: #f0f0f0;
+}
+
+/* .mdl-layout */
+.mdl-layout__header .mdl-layout__drawer-button {
+	color: #424242;
+}
+
+.mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+	padding: 8px 40px;
+}
+
+.template-layout.is-small-screen .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+	padding: 8px 16px;
+}
+
+.mdl-navigation {
+	padding-bottom: 1em;
+}
+
+.mdl-layout__drawer.is-visible,
+.mdl-layout__obfuscator.is-visible 
+{
+	position: fixed;
+}
+
+/* .template-content */
+.template-content {
+	margin-bottom: 40px;
+}
+
+.template-content.template-content--type_sub {
+	padding: 40px 56px;
+}
+
+.template-layout.is-small-screen .template-content.template-content--type_sub {
+	padding: 30px 28px;
+}
+
+/* .lulu-header */
+.lulu-header__title {
+	padding-left: 30px;
+}
+
+.template-layout.is-small-screen .lulu-header__title {
+	padding-left: 15px;
+}
+
+.lulu-header__title a {
+	font-weight: normal;
+	text-decoration: none;
+}
+
+.template-layout:not(.is-small-screen) .lulu-header__title__icon {
+	display: none;
+}
+
+.template-layout.is-small-screen .lulu-header__title__text {
+	display: none;
+}
+
+.lulu-article .lulu-article__meta-information + *,
+.lulu-article #preview > *:first-child
+{
+	margin-top: 48px;
+}
+
+.lulu-article h1 + * {
+	margin-top: 48px;
+}
+
+.lulu-article .lulu-article__meta-information .lulu-article__meta-information__updated-at:before {
+	content: "Updated at "
+}
+
+.lulu-article h1, 
+.lulu-article h2, 
+.lulu-article h3, 
+.lulu-article h4 
+{
+}
+
+.lulu-article h1 {
+	font-size: xx-large;
+	padding-bottom: 5px;
+	border-bottom: 1px solid Gainsboro;
+}
+
+.lulu-article h2 {
+	margin-top: 48px;
+	font-size: xx-large;
+}
+
+.lulu-article h3 {
+	font-size: x-large;
+}
+
+.lulu-article h4 {
+	font-size: large;
+}
+
+/* .template-footer */
+.template-footer {
+	margin-top: 40px;
+}
+
+.template-footer a {
+	color: white;
+}
+
+/* pukiwiki */
+.anchor_super,
+.jumpmenu 
+{
+	display: none;
+}
+
+.lulu-article table.style_table {
+	margin: 10px 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+    line-height: 1.5;
+    border-top: 1px solid #ccc;
+}
+
+.lulu-article table.style_table th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.lulu-article table.style_table td {
+    padding: 10px;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+}
+
+.diff_added {
+	color: mediumseagreen;
+}
+
+.diff_removed {
+	color: indianred;
+}
+
+.word0, .word1, .word2, .word3, .word4, 
+.word5, .word6, .word7, .word8, .word9 {
+	background-color: yellow;
+}
+
+
+.lulu-article form select,
+.lulu-article form textarea,
+.lulu-article form input[type=text],
+.lulu-article form input[type=password]
+{
+	box-sizing: border-box;
+	border-radius: 2px;
+	border: 1px solid #cccccc;
+}
+
+.lulu-article form select,
+.lulu-article form input[type=submit],
+.lulu-article form input + label {
+	cursor: pointer;
+}
+
+.lulu-article form select:not([name=begin]):not([name=end]),
+.lulu-article form input[type=submit]
+{
+	height: 36px;
+}
+
+.lulu-article form select {
+	width: 100%;
+}
+
+.lulu-article form textarea {
+	width: 100%;
+	margin: 10px 0;
+}
+
+.lulu-article form input[type=text],
+.lulu-article form input[type=password] {
+	height: 34px;
+	padding: 0 2px;
+}
+
+.lulu-article form input[type=submit] {
+	margin: 5px 0;
+	padding: 0 15px;
+	color: white;
+	background-color: rgb(63,81,181);
+	border-style: none;
+	border-radius: 2px;
+	box-shadow: 0px 1px 2px 0px #999999;
+	transition: box-shadow 0.5s;
+}
+
+.lulu-article form input[type=submit]:hover {
+	box-shadow: 0px 2px 3px 0px #999999;
+}
+
+.lulu-article .edit_form form select {
+	width: calc(100% - 64px);
+}
+
+.lulu-article .edit_form form input[name=notimestamp] {
+	display: none;
+}
+
+.lulu-article .edit_form form input[name=notimestamp] + label:hover {
+	text-decoration: underline;
+}
+
+.lulu-article .edit_form form input[name=notimestamp] + label > span {
+	white-space: nowrap;
+}
+
+.lulu-article .edit_form form input[name=notimestamp] + label > span:after {
+	font-weight: bold;
+}
+
+.lulu-article .edit_form form input[name=notimestamp]:not(:checked) + label > span:after {
+	content: ": OFF";
+}
+
+.lulu-article .edit_form form input[name=notimestamp]:checked + label > span:after {
+	content: ": ON";
+}
