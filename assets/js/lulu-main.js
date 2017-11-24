@@ -14,7 +14,7 @@ $(function () {
 			$('.full_hr + pre').addClass('nohighlight').css({ overflow: 'auto' });
 		}
 		function highlight() {
-			$('.lulu-article > pre, .lulu-article li > pre').each(function (i, block) {
+			$('.lulu-article > pre, .lulu-article li > pre, #preview > pre').each(function (i, block) {
 				hljs.highlightBlock(block);
 				$(block).css({ overflow: 'auto' });
 			});
