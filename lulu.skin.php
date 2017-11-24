@@ -80,8 +80,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 		<link rel="stylesheet" href="skin/lulu/assets/css/template-style.css">
 		<link rel="stylesheet" href="skin/lulu/assets/css/lulu-style.css">
 		<link rel="stylesheet" href="skin/lulu/assets/css/custom-style.css">
-		<style>
-		</style>
+		<!-- TRACKING_CODE -->
 	</head>
 	<body>
 		<div class="template-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
@@ -212,6 +211,8 @@ function _toolbar($key){
 					</article>
 				</div>
 			</div>
+
+			<!-- SPONSORED_ADS -->
 
 			<?php if ($menu !== FALSE) { ?>
 			<div class="template-container mdl-grid">
