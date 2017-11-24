@@ -131,20 +131,25 @@
     border-spacing: 0;
     text-align: left;
     line-height: 1.5;
+    border-bottom: 1px solid #ccc;
+}
+
+.lulu-article table.style_table th,
+.lulu-article table.style_table td 
+{
+    padding: 10px;
+    vertical-align: top;
     border-top: 1px solid #ccc;
 }
 
-.lulu-article table.style_table th {
-    padding: 10px;
+.lulu-article table.style_table th,
+.lulu-article table.style_table thead td 
+{
     font-weight: bold;
-    vertical-align: top;
-    border-bottom: 1px solid #ccc;
 }
 
-.lulu-article table.style_table td {
-    padding: 10px;
-    vertical-align: top;
-    border-bottom: 1px solid #ccc;
+.lulu-article table.style_table thead td {
+    border-style: none;
 }
 
 .diff_added {
