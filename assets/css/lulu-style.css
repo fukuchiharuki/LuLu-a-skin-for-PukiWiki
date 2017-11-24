@@ -47,7 +47,7 @@
 	padding: 30px 28px;
 }
 
-/* .lulu-header */
+/* header */
 .lulu-header__title {
 	padding-left: 30px;
 }
@@ -69,6 +69,7 @@
 	display: none;
 }
 
+/* article */
 .lulu-article .lulu-article__meta-information + *,
 .lulu-article #preview > *:first-child
 {
@@ -109,7 +110,23 @@
 	font-size: large;
 }
 
-/* .template-footer */
+.lulu-article .lulu-article__note,
+.lulu-article .lulu-article__attach
+{
+	border-top: 1px solid #cccccc;
+	margin-top: 40px;
+	padding-top: 10px;
+}
+
+.lulu-article .lulu-article__note > hr {
+	display: none;	
+}
+
+.lulu-article .lulu-article__note + .lulu-article__attach {
+	margin-top: 10px;
+}
+
+/* footer */
 .template-footer {
 	margin-top: 40px;
 }
