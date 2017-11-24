@@ -5,6 +5,10 @@
 	display: none;
 }
 
+.center {
+	text-align: center;
+}
+
 /* highlight.js */
 .nohighlight {
 	padding: 0.5em;
