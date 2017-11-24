@@ -140,9 +140,11 @@
 }
 
 /* pukiwiki */
-.anchor_super,
-.jumpmenu 
-{
+.anchor_super {
+	visibility: hidden;
+}
+
+.jumpmenu {
 	display: none;
 }
 
