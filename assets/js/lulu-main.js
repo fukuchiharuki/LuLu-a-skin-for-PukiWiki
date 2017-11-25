@@ -1,5 +1,52 @@
 $(function () {
 
+	/* alt mdl-js-layout: is-small-screen */
+	(function () {
+		let timer = undefined;
+		$(window).resize(function () {
+			clearTimeout(timer);
+			timer = setTimeout(measureScreenWidth, 100);
+		});
+		measureScreenWidth();
+		function measureScreenWidth() {
+			if (window.innerWidth > 1024) {
+				$('.mdl-layout').removeClass('is-small-screen');
+			} else {
+				$('.mdl-layout').addClass('is-small-screen');
+			}
+		}
+	})();
+
+	/* alt mdl-js-layout: drawer-button */
+	(function () {
+		initializeDrawerButton();
+		$('.mdl-layout__drawer-button').click(function () {
+			if ($('.mdl-layout__obfuscator').length < 1) {
+				$('<div />').addClass('mdl-layout__obfuscator').appendTo($('.mdl-layout'));
+			}
+			toggleVisibility();
+		});
+		$(document).on('click', '.mdl-layout__obfuscator', toggleVisibility);
+		function initializeDrawerButton() {
+			const icon = $('<i />').text('').addClass('material-icons');
+			const button = $('<div />').attr({
+				'aria-expanded': 'false',
+				'role': 'button',
+				'tabindex': '0',
+				'class': 'mdl-layout__drawer-button'
+			})
+			icon.appendTo(button);
+			button.appendTo($('.mdl-layout__header'));
+		}
+		function toggleVisibility() {
+			$('.mdl-layout__obfuscator').toggleClass('is-visible');
+			$('.mdl-layout__drawer').toggleClass('is-visible');
+			const expanded = $('.mdl-layout__drawer').hasClass('is-visible');
+			$('.mdl-layout__drawer').attr('aria-hidden', String(! expanded));
+			$('.mdl-layout__drawer-button').attr('aria-expanded', String(expanded));
+		}
+	})();
+
 	/* highlight.js */
 	(function () {
 		prepare();

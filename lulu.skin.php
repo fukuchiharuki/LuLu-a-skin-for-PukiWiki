@@ -83,7 +83,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 		<!-- TRACKING_CODE -->
 	</head>
 	<body>
-		<div class="template-layout mdl-layout mdl-layout--fixed-header mdl-js-layout mdl-color--grey-100">
+		<div class="template-layout mdl-layout mdl-layout--fixed-header mdl-color--grey-100">
 
 			<header class="lulu-header template-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
 				<div class="mdl-layout__header-row">
