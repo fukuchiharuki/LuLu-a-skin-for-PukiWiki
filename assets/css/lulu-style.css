@@ -1,5 +1,18 @@
 @charset "utf-8";
 
+code,
+pre
+{
+	font-family: 'Ricty Diminished', 'Consolas', 'Courier New', Courier, monospace, 'Monaco', sans-serif;
+}
+
+.is-small-screen ul,
+.is-small-screen ol
+{
+	margin-left: 0 !important;
+	padding-left: 15px !important;
+}
+
 /* utility */
 .hide {
 	display: none;
