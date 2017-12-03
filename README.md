@@ -40,3 +40,7 @@ v3で[Material Design Lite](https://getmdl.io/)を利用するようにしまし
         define(’SKIN_FILE’, DATA_HOME . SKINK_DIR . ‘pukiwiki.skin.php’);
                                                      ↓
         define(’SKIN_FILE’, DATA_HOME . SKINK_DIR . ‘lulu/lulu.skin.php’);
+
+### git?なにそれ
+
+スキンデータ一式は[Release](https://github.com/fukuchiharuki/LuLu-a-skin-for-PukiWiki/releases)ページからダウンロードすることもできます。zipかtar.gzを解凍して、インストール手順冒頭のディレクトリ構造のように手動で配置してください。
