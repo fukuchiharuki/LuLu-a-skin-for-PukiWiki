@@ -161,6 +161,11 @@ pre
 	display: none;
 }
 
+.lulu-article .ie5 {
+	width: 100%;
+	overflow: scroll;
+}
+
 .lulu-article table.style_table {
 	margin: 10px 0;
     border-collapse: collapse;
