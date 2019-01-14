@@ -42,7 +42,7 @@ $(function () {
 			$('.mdl-layout__obfuscator').toggleClass('is-visible');
 			$('.mdl-layout__drawer').toggleClass('is-visible');
 			const expanded = $('.mdl-layout__drawer').hasClass('is-visible');
-			$('.mdl-layout__drawer').attr('aria-hidden', String(! expanded));
+			$('.mdl-layout__drawer').attr('aria-hidden', String(!expanded));
 			$('.mdl-layout__drawer-button').attr('aria-expanded', String(expanded));
 		}
 	})();
@@ -75,13 +75,13 @@ $(function () {
 
 		searchQuery.blur(function () {
 			const query = searchQuery.val();
-			if (! query) return;
+			if (!query) return;
 			searchForm.submit();
 		});
 
 		searchForm.submit(function () {
 			const query = searchQuery.val();
-			if (! query) return false;
+			if (!query) return false;
 			return true;
 		});
 
