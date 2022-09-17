@@ -1,11 +1,3 @@
-measureScreenWidth();
-function measureScreenWidth() {
-	if (window.innerWidth > 1024) {
-		$('.mdl-layout').removeClass('is-small-screen');
-	} else {
-		$('.mdl-layout').addClass('is-small-screen');
-	}
-}
 
 $(function () {
 
@@ -16,6 +8,15 @@ $(function () {
 			clearTimeout(timer);
 			timer = setTimeout(measureScreenWidth, 100);
 		});
+		measureScreenWidth();
+		$('.mdl-layout').css('visibility', 'visible');
+		function measureScreenWidth() {
+			if (window.innerWidth > 1024) {
+				$('.mdl-layout').removeClass('is-small-screen');
+			} else {
+				$('.mdl-layout').addClass('is-small-screen');
+			}
+		}
 	})();
 
 	/* alt mdl-js-layout: drawer-button */
