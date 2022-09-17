@@ -161,6 +161,15 @@ pre
 	display: none;
 }
 
+.lulu-article .img_margin + .img_margin {
+	margin-top: 16px;
+}
+
+.lulu-article .img_margin > a > img {
+	max-width: 100%;
+	height: auto !important;
+}
+
 .lulu-article .ie5 {
 	display: block;
 	overflow-x: scroll;
@@ -174,40 +183,31 @@ pre
 	display: none;
 }
 
-.lulu-article .img_margin + .img_margin {
-	margin-top: 16px;
-}
-
-.lulu-article .img_margin > a > img {
-	max-width: 100%;
-	height: auto !important;
-}
-
 .lulu-article table.style_table {
 	margin: 10px 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    text-align: left;
-    line-height: 1.5;
-    border-bottom: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+	line-height: 1.5;
+	border-bottom: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table td 
 {
-    padding: 10px;
-    vertical-align: top;
-    border-top: 1px solid #ccc;
+	padding: 10px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table thead td 
 {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .lulu-article table.style_table thead td {
-    border-style: none;
+	border-style: none;
 }
 
 .diff_added {
