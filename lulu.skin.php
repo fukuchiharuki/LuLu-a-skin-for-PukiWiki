@@ -73,6 +73,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 		<link rel="SHORTCUT ICON" href="<?php echo $image['favicon'] ?>" />
 		<link rel="alternate" type="application/rss+xml" title="RSS" href="<?php echo $link['rss'] ?>" />
 		<?php echo $head_tag ?>
+
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-blue.min.css">
@@ -80,6 +81,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 		<link rel="stylesheet" href="skin/lulu/assets/css/template-style.css">
 		<link rel="stylesheet" href="skin/lulu/assets/css/lulu-style.css">
 		<link rel="stylesheet" href="skin/lulu/assets/css/custom-style.css">
+		<script src="skin/lulu/assets/js/lulu-lead.js"></script>
 		<!-- TRACKING_CODE -->
 	</head>
 	<body>

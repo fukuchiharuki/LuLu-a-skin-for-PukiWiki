@@ -161,36 +161,69 @@ pre
 	display: none;
 }
 
+.lulu-article blockquote::before {
+	position: absolute;
+	color: gray;
+	font-size: 40px;
+	left: -36px;
+	top: -24px;
+}
+
+.lulu-article blockquote::after {
+	position: absolute;
+	color: gray;
+	font-size: 40px;
+	right: 0;
+	bottom: -44px;
+}
+
+.lulu-article .img_margin + .img_margin {
+	margin-top: 16px;
+}
+
+.lulu-article .img_margin > a > img {
+	max-width: 100%;
+	height: auto !important;
+}
+
 .lulu-article .ie5 {
-	width: 100%;
-	overflow: scroll;
+	display: block;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.lulu-article .ie5::-webkit-scrollbar {  
+	display: none;
 }
 
 .lulu-article table.style_table {
 	margin: 10px 0;
-    border-collapse: collapse;
-    border-spacing: 0;
-    text-align: left;
-    line-height: 1.5;
-    border-bottom: 1px solid #ccc;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+	line-height: 1.5;
+	border-bottom: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table td 
 {
-    padding: 10px;
-    vertical-align: top;
-    border-top: 1px solid #ccc;
+	padding: 10px;
+	vertical-align: top;
+	border-top: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table thead td 
 {
-    font-weight: bold;
+	font-weight: bold;
 }
 
 .lulu-article table.style_table thead td {
-    border-style: none;
+	border-style: none;
 }
 
 .diff_added {
@@ -205,7 +238,6 @@ pre
 .word5, .word6, .word7, .word8, .word9 {
 	background-color: yellow;
 }
-
 
 .lulu-article form select,
 .lulu-article form textarea,
@@ -263,26 +295,3 @@ pre
 	width: calc(100% - 64px);
 }
 
-.lulu-article .edit_form form input[name=notimestamp] {
-	display: none;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label:hover {
-	text-decoration: underline;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label > span {
-	white-space: nowrap;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label > span:after {
-	font-weight: bold;
-}
-
-.lulu-article .edit_form form input[name=notimestamp]:not(:checked) + label > span:after {
-	content: ": OFF";
-}
-
-.lulu-article .edit_form form input[name=notimestamp]:checked + label > span:after {
-	content: ": ON";
-}
