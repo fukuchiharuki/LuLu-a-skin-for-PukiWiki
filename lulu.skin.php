@@ -51,6 +51,7 @@ switch(UI_LANG){
 
 // MenuBar
 $menu = arg_check('read') && exist_plugin_convert('menu') ? do_plugin_convert('menu') : FALSE;
+$menu = strcmp($menu, "<!-- #menu(): You already view MenuBar -->") ? $menu : FALSE;
 
 // ------------------------------------------------------------
 // Output
