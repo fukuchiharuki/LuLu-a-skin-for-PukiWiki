@@ -86,6 +86,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 	</head>
 	<body>
 		<div class="template-layout mdl-layout mdl-layout--fixed-header mdl-color--grey-100">
+
 			<header class="lulu-header template-header mdl-layout__header mdl-layout__header--scroll mdl-color--grey-100 mdl-color-text--grey-800">
 				<div class="mdl-layout__header-row">
 					<span class="lulu-header__title mdl-layout-title">
