@@ -1,3 +1,12 @@
+measureScreenWidth();
+function measureScreenWidth() {
+	if (window.innerWidth > 1024) {
+		$('.mdl-layout').removeClass('is-small-screen');
+	} else {
+		$('.mdl-layout').addClass('is-small-screen');
+	}
+}
+
 $(function () {
 
 	/* alt mdl-js-layout: is-small-screen */
@@ -7,14 +16,6 @@ $(function () {
 			clearTimeout(timer);
 			timer = setTimeout(measureScreenWidth, 100);
 		});
-		measureScreenWidth();
-		function measureScreenWidth() {
-			if (window.innerWidth > 1024) {
-				$('.mdl-layout').removeClass('is-small-screen');
-			} else {
-				$('.mdl-layout').addClass('is-small-screen');
-			}
-		}
 	})();
 
 	/* alt mdl-js-layout: drawer-button */
