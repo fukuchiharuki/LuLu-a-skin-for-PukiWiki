@@ -161,6 +161,22 @@ pre
 	display: none;
 }
 
+.lulu-article blockquote::before {
+	position: absolute;
+	color: gray;
+	font-size: 40px;
+	left: -36px;
+	top: -24px;
+}
+
+.lulu-article blockquote::after {
+	position: absolute;
+	color: gray;
+	font-size: 40px;
+	right: 0;
+	bottom: -44px;
+}
+
 .lulu-article .img_margin + .img_margin {
 	margin-top: 16px;
 }
