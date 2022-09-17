@@ -37,9 +37,9 @@ v3で[Material Design Lite](https://getmdl.io/)を利用するようにしまし
         $ git clone https://github.com/fukuchiharuki/LuLu-a-skin-for-PukiWiki.git skin/lulu
 1. ファイル``/path/to/PukiWiki/default.ini.php``の17行目を変更する
 
-        define(’SKIN_FILE’, DATA_HOME . SKINK_DIR . ‘pukiwiki.skin.php’);
+        define('SKIN_FILE', DATA_HOME . SKINK_DIR . 'pukiwiki.skin.php');
                                                      ↓
-        define(’SKIN_FILE’, DATA_HOME . SKINK_DIR . ‘lulu/lulu.skin.php’);
+        define('SKIN_FILE', DATA_HOME . SKINK_DIR . 'lulu/lulu.skin.php');
 
 ### git？なにそれ
 
