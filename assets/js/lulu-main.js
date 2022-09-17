@@ -1,4 +1,3 @@
-
 $(function () {
 
 	/* alt mdl-js-layout: is-small-screen */
@@ -11,7 +10,7 @@ $(function () {
 		measureScreenWidth();
 		$('.mdl-layout').css('visibility', 'visible');
 		function measureScreenWidth() {
-			if (window.innerWidth > 1024) {
+			if (windowIsLargeScreen()) {
 				$('.mdl-layout').removeClass('is-small-screen');
 			} else {
 				$('.mdl-layout').addClass('is-small-screen');
