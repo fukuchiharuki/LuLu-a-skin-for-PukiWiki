@@ -162,8 +162,16 @@ pre
 }
 
 .lulu-article .ie5 {
-	width: 100%;
-	overflow: scroll;
+	display: block;
+	overflow-x: scroll;
+	white-space: nowrap;
+	-webkit-overflow-scrolling: touch;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+}
+
+.lulu-article .ie5::-webkit-scrollbar {  
+	display: none;
 }
 
 .lulu-article .img_margin + .img_margin {
