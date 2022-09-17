@@ -263,26 +263,3 @@ pre
 	width: calc(100% - 64px);
 }
 
-.lulu-article .edit_form form input[name=notimestamp] {
-	display: none;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label:hover {
-	text-decoration: underline;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label > span {
-	white-space: nowrap;
-}
-
-.lulu-article .edit_form form input[name=notimestamp] + label > span:after {
-	font-weight: bold;
-}
-
-.lulu-article .edit_form form input[name=notimestamp]:not(:checked) + label > span:after {
-	content: ": OFF";
-}
-
-.lulu-article .edit_form form input[name=notimestamp]:checked + label > span:after {
-	content: ": ON";
-}
