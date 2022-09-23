@@ -3,9 +3,10 @@ LuLu: a skin for PukiWiki
 
 シンプルでレスポンシブな[PukiWiki](https://pukiwiki.osdn.jp/)用スキン。
 
-- [デモ](http://fukuchiharuki.me/lulu/)
+- [デモ](https://wiki.fukuchiharuki.me/)
 
-「lulu」はハワイ語で「静かな」という意味だそうです。やかましくない、シンプルなスキンを目指しました。
+やかましくない、シンプルなスキンを目指しました。  
+「lulu」はハワイ語で「静かな」という意味だそうです。
 
 特徴
 ----
@@ -15,7 +16,8 @@ LuLu: a skin for PukiWiki
 * レスポンシブ
   * [Material Design Lite](https://getmdl.io/)を利用する
 
-v3で[Material Design Lite](https://getmdl.io/)を利用するようにしました。外部のリソースをCDNからリンクするのでスキンのインストールが容易です。
+外部のリソースをCDNからリンクするのでスキンのインストールが容易です。  
+v3で[Material Design Lite](https://getmdl.io/)を利用するようにしました。
 
 インストール
 ----
