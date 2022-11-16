@@ -1,11 +1,10 @@
-LuLu: a skin for PukiWiki
-====
+# LuLu - a skin for PukiWiki
 
-シンプルでレスポンシブな[PukiWiki](https://pukiwiki.osdn.jp/)用スキン。
+シンプルでレスポンシブな[PukiWiki](https://pukiwiki.osdn.jp/)用スキンです。
 
-- [デモ](https://wiki.fukuchiharuki.me/)
+[>> DEMO](https://wiki.fukuchiharuki.me/)
 
-やかましくない、シンプルなスキンを目指しました。  
+すっきりとしてシンプルなスキンを目指しました。  
 「lulu」はハワイ語で「静かな」という意味だそうです。
 
 特徴
@@ -14,10 +13,9 @@ LuLu: a skin for PukiWiki
 * シンプル
   * 1カラムレイアウト
 * レスポンシブ
-  * [Material Design Lite](https://getmdl.io/)を利用する
+  * [Material Design Lite](https://getmdl.io/)ベース
 
-外部のリソースをCDNからリンクするのでスキンのインストールが容易です。  
-v3で[Material Design Lite](https://getmdl.io/)を利用するようにしました。
+また、CDNの外部のリソースにリンクするのでスキンのインストールが容易です。  
 
 インストール
 ----
@@ -43,6 +41,6 @@ v3で[Material Design Lite](https://getmdl.io/)を利用するようにしまし
                                                      ↓
         define('SKIN_FILE', DATA_HOME . SKINK_DIR . 'lulu/lulu.skin.php');
 
-### git？なにそれ
+### gitとは何ですか？
 
 スキンデータ一式は[Releaseページ](https://github.com/fukuchiharuki/LuLu-a-skin-for-PukiWiki/releases)からダウンロードすることもできます。zipかtar.gzを解凍して、インストール手順冒頭のディレクトリ構造のように手動で配置してください。
