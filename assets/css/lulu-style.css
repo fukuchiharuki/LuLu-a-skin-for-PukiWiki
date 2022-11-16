@@ -3,65 +3,65 @@
 code,
 pre
 {
-	font-family: 'Ricty Diminished', 'Consolas', 'Courier New', Courier, monospace, 'Monaco', sans-serif;
+  font-family: 'Ricty Diminished', 'Consolas', 'Courier New', Courier, monospace, 'Monaco', sans-serif;
 }
 
 @media (max-width: 839px) {
-	ul,
-	ol
-	{
-		margin-left: 0 !important;
-		padding-left: 15px !important;
-	}
+  ul,
+  ol
+  {
+    margin-left: 0 !important;
+    padding-left: 15px !important;
+  }
 }
 
 /* utility */
 .hide {
-	display: none;
+  display: none;
 }
 
 .center {
-	text-align: center;
+  text-align: center;
 }
 
 /* highlight.js */
 .nohighlight {
-	padding: 0.5em;
-	background-color: #f0f0f0;
+  padding: 0.5em;
+  background-color: #f0f0f0;
 }
 
 /* .mdl-layout */
 .mdl-layout__header .mdl-layout__drawer-button {
-	color: #424242;
+  color: #424242;
 }
 
 .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-	padding: 8px 40px;
+  padding: 8px 40px;
 }
 
 @media (max-width: 839px) {
-	.template-layout .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
-		padding: 8px 16px;
-	}
+  .template-layout .mdl-layout__drawer .mdl-navigation .mdl-navigation__link {
+    padding: 8px 16px;
+  }
 }
 
 .mdl-navigation {
-	padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .mdl-layout__drawer.is-visible,
 .mdl-layout__obfuscator.is-visible 
 {
-	position: fixed;
+  position: fixed;
 }
 
 /* .template-content */
 .template-content {
-	margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .template-content.template-content--type_sub {
-	padding: 40px 56px;
+  padding: 40px 56px;
 }
 
 @media (max-width: 839px) {
@@ -83,45 +83,45 @@ pre
 
 /* header */
 .lulu-header__title {
-	padding-left: 30px;
+  padding-left: 30px;
 }
 
 @media (max-width: 839px) {
-	.template-layout .lulu-header__title {
-		padding-left: 15px;
-	}
+  .template-layout .lulu-header__title {
+    padding-left: 15px;
+  }
 }
 
 .lulu-header__title a {
-	font-weight: normal;
-	text-decoration: none;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 @media (min-width: 840px) {
-	.template-layout .lulu-header__title__icon {
-		display: none;
-	}
+  .template-layout .lulu-header__title__icon {
+    display: none;
+  }
 }
 
 @media (max-width: 839px) {
-	.template-layout .lulu-header__title__text {
-		display: none;
-	}
+  .template-layout .lulu-header__title__text {
+    display: none;
+  }
 }
 
 /* article */
 .lulu-article .lulu-article__meta-information + *,
 .lulu-article #preview > *:first-child
 {
-	margin-top: 48px;
+  margin-top: 48px;
 }
 
 .lulu-article h1 + * {
-	margin-top: 48px;
+  margin-top: 48px;
 }
 
 .lulu-article .lulu-article__meta-information .lulu-article__meta-information__updated-at:before {
-	content: "Updated at "
+  content: "Updated at "
 }
 
 .lulu-article h1, 
@@ -132,134 +132,134 @@ pre
 }
 
 .lulu-article h1 {
-	font-size: xx-large;
-	padding-bottom: 5px;
-	border-bottom: 1px solid Gainsboro;
+  font-size: xx-large;
+  padding-bottom: 5px;
+  border-bottom: 1px solid Gainsboro;
 }
 
 .lulu-article h2 {
-	margin-top: 48px;
-	font-size: xx-large;
+  margin-top: 48px;
+  font-size: xx-large;
 }
 
 .lulu-article h3 {
-	font-size: x-large;
+  font-size: x-large;
 }
 
 .lulu-article h4 {
-	font-size: large;
+  font-size: large;
 }
 
 .lulu-article .lulu-article__note,
 .lulu-article .lulu-article__attach
 {
-	border-top: 1px solid #cccccc;
-	margin-top: 40px;
-	padding-top: 10px;
+  border-top: 1px solid #cccccc;
+  margin-top: 40px;
+  padding-top: 10px;
 }
 
 .lulu-article .lulu-article__note > hr {
-	display: none;	
+  display: none;	
 }
 
 .lulu-article .lulu-article__note + .lulu-article__attach {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 /* footer */
 .template-footer {
-	margin-top: 40px;
+  margin-top: 40px;
 }
 
 .template-footer a {
-	color: white;
+  color: white;
 }
 
 /* pukiwiki */
 .anchor_super {
-	visibility: hidden;
+  visibility: hidden;
 }
 
 .jumpmenu {
-	display: none;
+  display: none;
 }
 
 .lulu-article blockquote::before {
-	position: absolute;
-	color: gray;
-	font-size: 40px;
-	left: -36px;
-	top: -24px;
+  position: absolute;
+  color: gray;
+  font-size: 40px;
+  left: -36px;
+  top: -24px;
 }
 
 .lulu-article blockquote::after {
-	position: absolute;
-	color: gray;
-	font-size: 40px;
-	right: 0;
-	bottom: -44px;
+  position: absolute;
+  color: gray;
+  font-size: 40px;
+  right: 0;
+  bottom: -44px;
 }
 
 .lulu-article .img_margin + .img_margin {
-	margin-top: 16px;
+  margin-top: 16px;
 }
 
 .lulu-article .img_margin > a > img {
-	max-width: 100%;
-	height: auto !important;
+  max-width: 100%;
+  height: auto !important;
 }
 
 .lulu-article .ie5 {
-	display: block;
-	overflow-x: scroll;
-	white-space: nowrap;
-	-webkit-overflow-scrolling: touch;
-	scrollbar-width: none;
-	-ms-overflow-style: none;
+  display: block;
+  overflow-x: scroll;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .lulu-article .ie5::-webkit-scrollbar {  
-	display: none;
+  display: none;
 }
 
 .lulu-article table.style_table {
-	margin: 10px 0;
-	border-collapse: collapse;
-	border-spacing: 0;
-	text-align: left;
-	line-height: 1.5;
-	border-bottom: 1px solid #ccc;
+  margin: 10px 0;
+  border-collapse: collapse;
+  border-spacing: 0;
+  text-align: left;
+  line-height: 1.5;
+  border-bottom: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table td 
 {
-	padding: 10px;
-	vertical-align: top;
-	border-top: 1px solid #ccc;
+  padding: 10px;
+  vertical-align: top;
+  border-top: 1px solid #ccc;
 }
 
 .lulu-article table.style_table th,
 .lulu-article table.style_table thead td 
 {
-	font-weight: bold;
+  font-weight: bold;
 }
 
 .lulu-article table.style_table thead td {
-	border-style: none;
+  border-style: none;
 }
 
 .diff_added {
-	color: mediumseagreen;
+  color: mediumseagreen;
 }
 
 .diff_removed {
-	color: indianred;
+  color: indianred;
 }
 
 .word0, .word1, .word2, .word3, .word4, 
 .word5, .word6, .word7, .word8, .word9 {
-	background-color: yellow;
+  background-color: yellow;
 }
 
 .lulu-article form select,
@@ -267,54 +267,54 @@ pre
 .lulu-article form input[type=text],
 .lulu-article form input[type=password]
 {
-	box-sizing: border-box;
-	border-radius: 2px;
-	border: 1px solid #cccccc;
+  box-sizing: border-box;
+  border-radius: 2px;
+  border: 1px solid #cccccc;
 }
 
 .lulu-article form select,
 .lulu-article form input[type=submit],
 .lulu-article form input + label {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .lulu-article form select:not([name=begin]):not([name=end]),
 .lulu-article form input[type=submit]
 {
-	height: 36px;
+  height: 36px;
 }
 
 .lulu-article form select {
-	width: 100%;
+  width: 100%;
 }
 
 .lulu-article form textarea {
-	width: 100%;
-	margin: 10px 0;
+  width: 100%;
+  margin: 10px 0;
 }
 
 .lulu-article form input[type=text],
 .lulu-article form input[type=password] {
-	height: 34px;
-	padding: 0 2px;
+  height: 34px;
+  padding: 0 2px;
 }
 
 .lulu-article form input[type=submit] {
-	margin: 5px 0;
-	padding: 0 15px;
-	color: white;
-	background-color: rgb(63,81,181);
-	border-style: none;
-	border-radius: 2px;
-	box-shadow: 0px 1px 2px 0px #999999;
-	transition: box-shadow 0.5s;
+  margin: 5px 0;
+  padding: 0 15px;
+  color: white;
+  background-color: rgb(63,81,181);
+  border-style: none;
+  border-radius: 2px;
+  box-shadow: 0px 1px 2px 0px #999999;
+  transition: box-shadow 0.5s;
 }
 
 .lulu-article form input[type=submit]:hover {
-	box-shadow: 0px 2px 3px 0px #999999;
+  box-shadow: 0px 2px 3px 0px #999999;
 }
 
 .lulu-article .edit_form form select {
-	width: calc(100% - 64px);
+  width: calc(100% - 64px);
 }
 
