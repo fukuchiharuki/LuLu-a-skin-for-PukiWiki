@@ -83,7 +83,7 @@ header('Content-Type: text/html; charset=' . CONTENT_CHARSET);
 		<link rel="stylesheet" href="skin/lulu/assets/css/lulu-style.css">
 		<link rel="stylesheet" href="skin/lulu/assets/css/custom-style.css">
 		<script src="skin/lulu/assets/js/lulu-lead.js"></script>
-		<!-- TRACKING_CODE -->
+		<?php include('custom.header.html'); ?>
 	</head>
 	<body>
 		<div class="template-layout mdl-layout mdl-layout--fixed-header mdl-color--grey-100">
